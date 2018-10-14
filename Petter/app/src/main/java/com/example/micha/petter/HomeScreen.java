@@ -24,4 +24,14 @@ public class HomeScreen extends AppCompatActivity {
         Intent intent = new Intent(this, Swipe.class);
         startActivity(intent);
     }
+
+    public void message(View view){
+        Intent intent = new Intent(this, Message.class);
+        startActivity(intent);
+    }
+
+    public void manage(View view){
+        Intent intent = new Intent(this, PetManager.class);
+        startActivity(intent);
+    }
 }
